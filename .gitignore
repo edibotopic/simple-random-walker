@@ -1,0 +1,6 @@
+*.log
+.vscode/
+backup/
+bbs/
+carts/
+cdata/

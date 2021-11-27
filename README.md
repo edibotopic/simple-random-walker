@@ -2,7 +2,7 @@
 
 This is a simple implementation of a random walk algorithm.
 
-![Cover image](/simple-random-walker/simple-random-walker.p8.png "Cover image for pico-8 cart")
+![Cover image](/simple-random-walker.p8.png "Cover image for pico-8 cart")
 
 ## Controls
 
@@ -22,7 +22,7 @@ While drawing, the algorithm randomly selects from one of four greyscale colours
 
 This means that the images generated can be used as simple height maps.
 
-![Example of builder pattern](/simple-random-walker/builder.gif "Example of builder pattern")
+![Example of builder pattern](/builder.gif "Example of builder pattern")
 
 ### Instructions
 
