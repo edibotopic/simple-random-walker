@@ -56,7 +56,7 @@ This means that the images generated can be used as simple [height maps](https:/
 - [ ] Dynamic user influence on walkers
 - [ ] Instructions on using cart within Pico-8
 - [ ] Example 3D models and printed structures
-- [ ] Replace grey background around cart
+- [x] Replace grey background around cart
 - [x] Change title metadata in index.html
 - [ ] Option to recolour pixels during draw
 - [ ] Try importing a model to picoCAD
