@@ -1,8 +1,12 @@
-# Simple Random Walker
+# Simple Random Walker 🚶 🚶‍♀️ 🐕
 
 This is a simple implementation of a random walk algorithm.
 
 ![Cover image](/simple-random-walker.p8.png "Cover image for pico-8 cart")
+
+It is playable on desktop or mobile through the browser via a [web player](https://edibotopic.github.io/simple-random-walker/).
+
+My goal here is primarily academic and relates ultimately to proceduralism in food design, which I am currently writing about.
 
 ## Controls
 
@@ -14,9 +18,15 @@ The player is given four options in the main menu that generate different patter
 - ⬇️ = BLOBBER
 
 Making a selection initiates the random walker.
-At any point the player can return to the menu by pressing <kbd>Z</kbd>.
+At any point the player can return to the menu by pressing <kbd>Z</kbd> (desktop/laptop) or <kbd>O</kbd> (phone)
 
-## Application
+## Use-case
+
+This was created as part 1 of a 3-step demo for:
+
+1. Procedural generation of a height map
+2. Conversion of a height map to a 3D mesh
+3. 3D printing of procedurally-generated structures
 
 While drawing, the algorithm randomly selects from one of four greyscale colours.
 
@@ -39,3 +49,11 @@ This means that the images generated can be used as simple height maps.
 - No collisions are implemented so that walker can run off the screen (intentional)
 - The name of the walker may overlap with generated patterns (intentional)
 - Player cannot generate image file from generated patterns (unintentional)
+
+## To-do
+
+- [ ] Dynamic user influence on walkers
+- [ ] Instructions on using cart within Pico-8
+- [ ] Example 3D models and printed structures
+- [ ] Option to recolour pixels during draw
+- [ ] Try importing a model to picoCAD
