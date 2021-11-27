@@ -22,15 +22,15 @@ At any point the player can return to the menu by pressing <kbd>Z</kbd> (desktop
 
 ## Use-case
 
-This was created as part 1 of a 3-step demo for:
+This was created as *part 1 of a 3-step demo* for:
 
 1. Procedural generation of a height map
 2. Conversion of a height map to a 3D mesh
 3. 3D printing of procedurally-generated structures
 
-While drawing, the algorithm randomly selects from one of four greyscale colours.
+While drawing, the algorithm randomly selects from one of *four greyscale colours*.
 
-This means that the images generated can be used as simple height maps.
+This means that the images generated can be used as simple [height maps](https://en.wikipedia.org/wiki/Heightmap).
 
 ![Example of builder pattern](/builder.gif "Example of builder pattern")
 
@@ -48,7 +48,7 @@ This means that the images generated can be used as simple height maps.
 
 - No collisions are implemented so that walker can run off the screen (intentional)
 - The name of the walker may overlap with generated patterns (intentional)
-- Player cannot generate image file from generated patterns (unintentional)
+- Player cannot easily take screenshot of pattern outside of Pico-8 (unintentional)
 
 ## To-do
 
