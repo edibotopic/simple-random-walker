@@ -1,4 +1,4 @@
-# Simple Random Walker 🚶 🚶‍♀️ 🐕
+# Simple Random Walker🚶🚶‍♀️🐕
 
 This is a simple implementation of a random walk algorithm.
 
